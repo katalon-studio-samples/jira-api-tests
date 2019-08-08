@@ -16,6 +16,6 @@ WS.verifyElementPropertyValue(response, 'fields.project.key', 'KD')
 WS.verifyElementPropertyValue(response, 'fields.project.name', 'Katalon-Demo')
 
 // Verify issue information
-WS.verifyElementPropertyValue(response, 'fields.summary', 'REST - Create new issue using API')
-WS.verifyElementPropertyValue(response, 'fields.description', 'As a User, I want to be able to create a new tickets, so that I can keep track all tasks')
+WS.verifyElementPropertyValue(response, 'fields.summary', 'REST - Edit an existing RESTful test using Katalon Studio')
+WS.verifyElementPropertyValue(response, 'fields.description', 'Update description from API example')
 WS.verifyElementPropertyValue(response, 'fields.issuetype.name', 'Bug')
